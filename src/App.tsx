@@ -10,7 +10,7 @@ const initialTodos: Todo[] = [
   {
     text: 'Write app',
     complete: true,
-  },
+  }
 ]
 
 function App() {
@@ -36,7 +36,8 @@ function App() {
 
   return(
     <div>
-      <TodoList todos={todos} toggleTodo={toggleTodo} />;
+      <h4>My ToDo App</h4>
+      <TodoList todos={todos} toggleTodo={toggleTodo} />
       <AddTodoForm addTodo={addTodo}/>
     </div>
   ) 
